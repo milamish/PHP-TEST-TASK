@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "username": "john_doe",
+        "email": "john.doe@example.com",
+        "age": 28,
+        "address": {
+            "street": "123 Main St",
+            "city": "Example City",
+            "country": "Example Country"
+        }
+    },
+    {
+        "id": 2,
+        "username": "jane_smith",
+        "email": "jane.smith@example.com",
+        "age": 35,
+        "address": {
+            "street": "456 Oak Ave",
+            "city": "Sample City",
+            "country": "Sample Country"
+        }
+    }
+]
