@@ -10,7 +10,10 @@ class DatabaseManager {
             throw new Exception("Connection error: " . print_r(sqlsrv_errors(), true));
         }
     }
-
+    /**Assumptions:
+    We have a Customers, Orders, Payments, and Deliveryinfo table
+    CustomerID is a foreign key on Orders, Payments, and deliveryinfo tables
+    */
     public function fetchData() {
         try {
             $sql = "
